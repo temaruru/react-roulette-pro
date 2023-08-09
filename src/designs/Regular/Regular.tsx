@@ -25,7 +25,7 @@ const TopChildren = ({ type, hideCenterDelimiter }: ITopChildrenProps) =>
 const regularDesign =
   ({ prizesWithText, hideCenterDelimiter }: IRegularDesignProps) =>
   ({ type }: IDesignPluginProps): IDesignPlugin => {
-    const prizeItemWidth: number = 170;
+    const prizeItemWidth: number = 180;
     const prizeItemHeightWithoutText = type === 'vertical' ? 172 : 174;
     const prizeItemHeight: number =
       prizesWithText === true ? 200 : prizeItemHeightWithoutText;
